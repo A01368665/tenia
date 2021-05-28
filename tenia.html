@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="tuve.css">
+    <title>Emi Juegos Online</title>
+  </head>
+  <body>
+<div class="header">
+  </div>
+<h1>El mejor juego que puedes desear - Gratis</h1>
+<div id="ad1">
+</div>
+<p>&nbsp;</p>
+<div class="page">
+  <div class="wrapper-video">
+    <img style='display:none;' id='chale' src='uno.jpg' alt="Una foto">
+<img src='dos.jpg' style='display:none;' id="chole" alt="otra foto">
+    <script type="text/javascript">
+      document.addEventListener( "keydown", function (e) {
+  if (e.key == ' ') {
+    var x = document.getElementById("chale");
+    var y = document.getElementById("chole");
+
+    if (y.style.display != "none") {
+      y.style.display = "none";
+    }
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    }
+    }
+});
+
+document.addEventListener( "keyup", function (e) {
+if (e.key == ' ') {
+var x = document.getElementById("chale");
+var y = document.getElementById("chole");
+
+if (x.style.display != "none") {
+x.style.display = "none";
+}
+if (y.style.display === "none") {
+y.style.display = "block"; }
+} });
+    </script>
+</div>
+</div>
+
+  </body>
+</html>
